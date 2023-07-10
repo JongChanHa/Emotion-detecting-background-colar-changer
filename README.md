@@ -81,7 +81,7 @@ python demo.py --o output.avi
 
 ## Output
 
-![.\output.gif](.\output.gif)
+![output.gif](output.gif)
 
 ## Appendix
 
