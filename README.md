@@ -26,7 +26,7 @@ openvino_env/Srcipts/activate
 3. git clone             
 ```shell
 git clone https://github.com/openvinotoolkit/open_model_zoo.git
-git clone https://github.com/JongChanHa/Intel_AI_project01
+git clone https://github.com/JongChanHa/Intel_AI_project01.git
 ```
 
 3. pip install              
