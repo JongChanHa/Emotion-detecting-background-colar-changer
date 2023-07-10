@@ -21,7 +21,7 @@ mkdir work
 2. python 가상환경 생성                 
 ```shell
 python -m venv openvino_env
-openvino_env/Srcipts/activate
+openvino_env\Scripts\activate
 ```
 3. git clone             
 ```shell
