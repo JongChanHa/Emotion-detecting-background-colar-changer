@@ -1,61 +1,75 @@
-# Intel_AI_project01
+# Project name
 
-* 웹캠으로 표정에 따라 실시간으로 배경색을 바꿔주는 ai 모델
+* 실시간 표정에 따른 배경 색 제어                
 
 
 ## Requirement
 
-* -
-* Python 3.9.13
 
+```
+* 10th generation Intel® CoreTM processor onwards
+* At least 32GB RAM
+* python3.9.13
+```
 
 ## Clone code
 
-* (Code clone 방법에 대해서 기술)
 
-git clone https://github.com/JongChanHa/Intel_AI_project01
+```shell
 
 git clone https://github.com/openvinotoolkit/open_model_zoo
-
-## Prerequite
-
-* (프로잭트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정방법에 대해 기술)
-
-```shell
-python -m venv .venv
-source .venv/bin/activate
-
-python -m pip install -U pip
-python -m pip install wheel
-
-python -m pip install openvino-dev
-
-cd /path/to/repo/xxx/
-python -m pip install -r requirements.txt
 ```
 
-## Steps to build
-
-* (프로젝트를 실행을 위해 빌드 절차 기술)
+## Prerequite
+1. 작업 폴더 생성      
 
 ```shell
-cd ~/xxxx
-source .venv/bin/activate
+mkdir work
+```
+2. python 가상환경 생성                 
+```shell
+python -m venv openvino_env
+openvino_env/Srcipts/activate
+```
+3. git clone             
+```shell
+git clone https://github.com/openvinotoolkit/open_model_zoo.git
+git clone https://github.com/JongChanHa/Intel_AI_project01
+```
 
-make
-make install
+3. pip install              
+```shell
+cd open_model_zoo
+python -m pip install -U pip
+pip install -r ./demos/common/python/requirements.txt
+```
+
+* 폴더 구조
+```bash
+├── open_model_zoo
+├── Intel_AI_project01
+└── openvino_env
+``` 
+## Steps to build 
+
+1. pretrained model download&converter               
+```shell
+cd Intel_AI_project01
+type models.lst
+
+omz_downloader --list models.lst
+omz_converter --list models.lst
 ```
 
 ## Steps to run
 
-* (프로젝트 실행방법에 대해서 기술, 특별한 사용방법이 있다면 같이 기술)
-
+1. activate env (이미 켜져 있다면 건너뛰기)           
 ```shell
-cd ~/xxxx
-source .venv/bin/activate
-
-cd /path/to/repo/xxx/
-python demo.py -i xxx -m yyy -d zzz
+openvino_env/Srcipts/activate
+```
+2. demo실행
+```shell
+python demo.py
 ```
 
 ## Output
