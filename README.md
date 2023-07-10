@@ -12,14 +12,6 @@
 * python3.9.13
 ```
 
-## Clone code
-
-
-```shell
-
-git clone https://github.com/openvinotoolkit/open_model_zoo
-```
-
 ## Prerequite
 1. 작업 폴더 생성      
 
