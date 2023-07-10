@@ -14,7 +14,6 @@
 * (Code clone 방법에 대해서 기술)
 
 git clone https://github.com/JongChanHa/Intel_AI_project01
-
 git clone https://github.com/openvinotoolkit/open_model_zoo
 
 ## Prerequite
