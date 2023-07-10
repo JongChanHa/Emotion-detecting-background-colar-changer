@@ -61,6 +61,7 @@ openvino_env/Srcipts/activate
 ```
 2. demo실행
 ```shell
+cd Intel_AI_project01 
 python demo.py
 ```
 
