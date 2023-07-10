@@ -17,6 +17,7 @@
 
 ```shell
 mkdir work
+cd work
 ```
 2. python 가상환경 생성                 
 ```shell
@@ -34,6 +35,7 @@ git clone https://github.com/JongChanHa/Intel_AI_project01.git
 cd open_model_zoo
 python -m pip install -U pip
 pip install -r ./demos/common/python/requirements.txt
+cd ..
 ```
 
 * 폴더 구조
