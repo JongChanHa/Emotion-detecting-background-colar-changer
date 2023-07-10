@@ -5,22 +5,16 @@
 
 ## Requirement
 
-* (프로젝트를 실행시키기 위한 최소 requirement들에 대해 기술)
-
-```
-* 10th generation Intel® CoreTM processor onwards
-* At least 32GB RAM
-* Ubuntu 22.04
+* -
 * Python 3.9.13
-```
+
 
 ## Clone code
 
 * (Code clone 방법에 대해서 기술)
 
-```shell
-git clone https://github.com/zzz/yyy/xxxx
-```
+git clone https://github.com/JongChanHa/Intel_AI_project01
+git clone https://github.com/openvinotoolkit/open_model_zoo
 
 ## Prerequite
 
