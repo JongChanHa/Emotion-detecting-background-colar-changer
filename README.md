@@ -11,7 +11,7 @@
 * 10th generation Intel® CoreTM processor onwards
 * At least 32GB RAM
 * Ubuntu 22.04
-* Python 3.9
+* Python 3.9.13
 ```
 
 ## Clone code
